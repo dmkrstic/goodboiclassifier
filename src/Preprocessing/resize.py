@@ -2,7 +2,7 @@ from PIL import Image
 from resizeimage import resizeimage
 from os import listdir
 
-folder = 'C:\\Users\\NZivkovic\\Documents\\GitHub\\goodboiclassifier\\Training_set'
+folder = 'C:\\Users\\Dusica Krstic\\Documents\\GitHub\\goodboiclassifier\\dataset\\training_set'
 folder_list = listdir(folder)
     
 for folder_url in folder_list:

@@ -2,7 +2,7 @@ import os
 from os import listdir
 from PIL import Image
 
-folder = 'C:\\Users\\NZivkovic\\Documents\\GitHub\\goodboiclassifier\\Training_set'
+folder = 'C:\\Users\\Dusica Krstic\\Documents\\GitHub\\goodboiclassifier\\dataset\\training_set'
 folder_list = listdir(folder)
 for folder_url in folder_list:
     breed_list = listdir(folder + '\\' + folder_url)
