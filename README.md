@@ -7,7 +7,8 @@ src folder contains
 - python file that continues training on model
 - python script that prints the confusion matrix and classification report
 
-You can find full jupyter notebook on colab here
+You can find full jupyter notebook on colab here:
 http://tiny.cc/goodboiclassifieripynb
 
-Link to google drive with data set and trained model
+Link to google drive with the trained model:
+http://tiny.cc/goodboiclassifiermodel
