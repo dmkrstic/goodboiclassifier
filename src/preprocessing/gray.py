@@ -1,3 +1,4 @@
+# Grayscale
 from PIL import Image
 from os import listdir
 

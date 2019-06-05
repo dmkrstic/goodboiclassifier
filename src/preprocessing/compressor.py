@@ -1,3 +1,4 @@
+# Compresses images
 import os
 from os import listdir
 from PIL import Image

@@ -1,3 +1,4 @@
+# Randomly moves images into training, valid and test set folders
 import os
 from os import listdir
 from shutil import copyfile
@@ -14,13 +15,10 @@ for category in category_list:
             src = folder + '\\' + 'training_set' + '\\' +category + '\\' + breed + '\\' + img_url
             r = random.randint(1, 100)
             if r > 70 and r <= 85:
-                #dest = folder + '\\' + 'valid_set' + '\\' + category + '\\' + breed + '\\' + img_url
-                #os.rename(src, dest)
+                dest = folder + '\\' + 'valid_set' + '\\' + category + '\\' + breed + '\\' + img_url
+                os.rename(src, dest)
                 continue
             elif r > 85:
                 dest = folder + '\\' + 'test_set' + '\\' + category + '\\' + breed + '\\' + img_url
-                #copyfile(src, dest)
+                copyfile(src, dest)
                 os.rename(src, dest)
-            
-
-

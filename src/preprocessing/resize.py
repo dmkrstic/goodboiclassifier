@@ -1,3 +1,4 @@
+# Resizes images to 144 x 144
 from PIL import Image
 from resizeimage import resizeimage
 from os import listdir

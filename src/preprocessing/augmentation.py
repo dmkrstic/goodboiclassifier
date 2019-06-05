@@ -1,3 +1,4 @@
+# Creates "new" images from existing images
 import keras
 from keras.preprocessing.image import ImageDataGenerator
 import numpy as np

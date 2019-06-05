@@ -1,3 +1,4 @@
+# Renames all images accordingly
 from PIL import Image
 from resizeimage import resizeimage
 import os

@@ -1,4 +1,5 @@
-from google_images_download import google_images_download   #importing the library
+# Downloading pictures from images.google.com
+from google_images_download import google_images_download 
 
 response = google_images_download.googleimagesdownload() 
 
